@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:334155,100:64748B&height=200&section=header&text=Malte%20G%C3%BCndisch&fontSize=52&fontColor=E2E8F0&animation=fadeIn&fontAlignY=34&desc=Manager%20Online%20Marketing%20%26%20CRM&descAlignY=54&descSize=17" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:334155,100:64748B&height=200&section=header&text=Malte%20G%C3%BCndisch&fontSize=52&fontColor=E2E8F0&fontAlignY=34&desc=Manager%20Online%20Marketing%20%26%20CRM&descAlignY=54&descSize=17&v=2" width="100%" alt="header" />
 
 <a href="https://github.com/MGue95">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3400&pause=1000&color=94A3B8&center=true&vCenter=true&width=760&lines=Manager+Online+Marketing+%26+CRM;Salesforce+%7C+Apex+%C2%B7+LWC+%C2%B7+Flow+%C2%B7+SOQL;Web+Engineering+%7C+WordPress+%C2%B7+Oxygen+%C2%B7+PHP;Marketing+Automation+%7C+Analytics+%C2%B7+Tracking+%C2%B7+AI" alt="typing" />
@@ -16,9 +16,6 @@
 
 <a href="https://www.linkedin.com/in/malte-g%C3%BCndisch-4131131ba/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-475569?style=for-the-badge&logo=linkedin&logoColor=94A3B8&labelColor=0D1117" alt="linkedin" />
-</a>
-<a href="mailto:malte.guendisch@ergoflix.de">
-  <img src="https://img.shields.io/badge/Email-Reach_Out-475569?style=for-the-badge&logo=maildotru&logoColor=94A3B8&labelColor=0D1117" alt="email" />
 </a>
 <a href="https://github.com/MGue95">
   <img src="https://img.shields.io/badge/GitHub-Follow-475569?style=for-the-badge&logo=github&logoColor=94A3B8&labelColor=0D1117" alt="github" />
@@ -46,93 +43,19 @@ Ten years of web development behind it, so most of what I plan I can also build:
 
 ## Tech Stack
 
-<div align="center">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,php,python,html,css&theme=dark" alt="languages" />
-<br/>
-<img src="https://img.shields.io/badge/SQL-475569?style=flat-square&labelColor=0D1117" alt="sql" />
-
-**Frontend & CMS**
-
-<img src="https://skillicons.dev/icons?i=wordpress,jquery&theme=dark" alt="frontend" />
-<br/>
-<img src="https://img.shields.io/badge/Oxygen_Builder-475569?style=flat-square&labelColor=0D1117" alt="oxygen" />
-<img src="https://img.shields.io/badge/Vanilla_JS_%2F_CSS-475569?style=flat-square&labelColor=0D1117" alt="vanilla" />
-
-**Design & Video**
-
-<img src="https://skillicons.dev/icons?i=ps,ai,pr,figma&theme=dark" alt="design" />
-<br/>
-<img src="https://img.shields.io/badge/CapCut-475569?style=flat-square&labelColor=0D1117" alt="capcut" />
-<img src="https://img.shields.io/badge/Canva-475569?style=flat-square&labelColor=0D1117" alt="canva" />
-<img src="https://img.shields.io/badge/Adobe_Firefly-475569?style=flat-square&labelColor=0D1117" alt="firefly" />
-
-**Developer Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,npm,vscode,postman&theme=dark" alt="tools" />
-
-</div>
-
-**CRM & Platform**
-
-<img src="https://img.shields.io/badge/Salesforce-475569?style=flat-square&labelColor=0D1117" alt="sf" />
-<img src="https://img.shields.io/badge/Apex-475569?style=flat-square&labelColor=0D1117" alt="apex" />
-<img src="https://img.shields.io/badge/Lightning_Web_Components-475569?style=flat-square&labelColor=0D1117" alt="lwc" />
-<img src="https://img.shields.io/badge/Flow-475569?style=flat-square&labelColor=0D1117" alt="flow" />
-<img src="https://img.shields.io/badge/SOQL-475569?style=flat-square&labelColor=0D1117" alt="soql" />
-<img src="https://img.shields.io/badge/Make.com-475569?style=flat-square&labelColor=0D1117" alt="make" />
-<img src="https://img.shields.io/badge/Brevo-475569?style=flat-square&labelColor=0D1117" alt="brevo" />
-<img src="https://img.shields.io/badge/HeyFlow-475569?style=flat-square&labelColor=0D1117" alt="heyflow" />
-<img src="https://img.shields.io/badge/Matelso-475569?style=flat-square&labelColor=0D1117" alt="matelso" />
-
-**AI**
-
-<img src="https://img.shields.io/badge/Claude_API-475569?style=flat-square&labelColor=0D1117" alt="claude" />
-<img src="https://img.shields.io/badge/Model_Context_Protocol-475569?style=flat-square&labelColor=0D1117" alt="mcp" />
-<img src="https://img.shields.io/badge/ChatGPT-475569?style=flat-square&labelColor=0D1117" alt="chatgpt" />
-<img src="https://img.shields.io/badge/Perplexity-475569?style=flat-square&labelColor=0D1117" alt="perplexity" />
-<img src="https://img.shields.io/badge/Midjourney-475569?style=flat-square&labelColor=0D1117" alt="midjourney" />
-
-**Advertising**
-
-<img src="https://img.shields.io/badge/Google_Ads-475569?style=flat-square&labelColor=0D1117" alt="googleads" />
-<img src="https://img.shields.io/badge/Microsoft_Ads-475569?style=flat-square&labelColor=0D1117" alt="msads" />
-<img src="https://img.shields.io/badge/Meta_Ads-475569?style=flat-square&labelColor=0D1117" alt="metaads" />
-<img src="https://img.shields.io/badge/YouTube_Ads-475569?style=flat-square&labelColor=0D1117" alt="ytads" />
-<img src="https://img.shields.io/badge/Outbrain-475569?style=flat-square&labelColor=0D1117" alt="outbrain" />
-<img src="https://img.shields.io/badge/Taboola-475569?style=flat-square&labelColor=0D1117" alt="taboola" />
-<img src="https://img.shields.io/badge/Merchant_Center-475569?style=flat-square&labelColor=0D1117" alt="merchant" />
-
-**Analytics & Tracking**
-
-<img src="https://img.shields.io/badge/Google_Analytics_4-475569?style=flat-square&labelColor=0D1117" alt="ga4" />
-<img src="https://img.shields.io/badge/Google_Tag_Manager-475569?style=flat-square&labelColor=0D1117" alt="gtm" />
-<img src="https://img.shields.io/badge/Search_Console-475569?style=flat-square&labelColor=0D1117" alt="gsc" />
-<img src="https://img.shields.io/badge/Looker_Studio-475569?style=flat-square&labelColor=0D1117" alt="looker" />
-<img src="https://img.shields.io/badge/Hotjar-475569?style=flat-square&labelColor=0D1117" alt="hotjar" />
-<img src="https://img.shields.io/badge/Microsoft_Clarity-475569?style=flat-square&labelColor=0D1117" alt="clarity" />
-<img src="https://img.shields.io/badge/Google_Trends-475569?style=flat-square&labelColor=0D1117" alt="trends" />
-
-**SEO**
-
-<img src="https://img.shields.io/badge/Sistrix-475569?style=flat-square&labelColor=0D1117" alt="sistrix" />
-<img src="https://img.shields.io/badge/Screaming_Frog-475569?style=flat-square&labelColor=0D1117" alt="frog" />
-
-**Consent & Commerce**
-
-<img src="https://img.shields.io/badge/Borlabs_Consent-475569?style=flat-square&labelColor=0D1117" alt="borlabs" />
-<img src="https://img.shields.io/badge/Usercentrics_%2F_Cookiebot-475569?style=flat-square&labelColor=0D1117" alt="consent" />
-<img src="https://img.shields.io/badge/Trusted_Shops-475569?style=flat-square&labelColor=0D1117" alt="ts" />
-<img src="https://img.shields.io/badge/Shopify-475569?style=flat-square&labelColor=0D1117" alt="shopify" />
-
-**Workflow**
-
-<img src="https://img.shields.io/badge/ClickUp-475569?style=flat-square&labelColor=0D1117" alt="clickup" />
-<img src="https://img.shields.io/badge/Asana-475569?style=flat-square&labelColor=0D1117" alt="asana" />
-<img src="https://img.shields.io/badge/Google_Workspace-475569?style=flat-square&labelColor=0D1117" alt="workspace" />
-<img src="https://img.shields.io/badge/Apps_Script-475569?style=flat-square&labelColor=0D1117" alt="appsscript" />
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,php,python,html,css&theme=dark" height="32" alt="languages" /> <img src="https://img.shields.io/badge/SQL-475569?style=flat-square&labelColor=0D1117" alt="sql" /> |
+| **Frontend & CMS** | <img src="https://skillicons.dev/icons?i=wordpress,jquery&theme=dark" height="32" alt="frontend" /> <img src="https://img.shields.io/badge/Oxygen_Builder-475569?style=flat-square&labelColor=0D1117" alt="oxygen" /> <img src="https://img.shields.io/badge/Vanilla_JS_%2F_CSS-475569?style=flat-square&labelColor=0D1117" alt="vanilla" /> |
+| **Design & Video** | <img src="https://skillicons.dev/icons?i=ps,ai,pr,figma&theme=dark" height="32" alt="design" /> <img src="https://img.shields.io/badge/CapCut-475569?style=flat-square&labelColor=0D1117" alt="capcut" /> <img src="https://img.shields.io/badge/Canva-475569?style=flat-square&labelColor=0D1117" alt="canva" /> <img src="https://img.shields.io/badge/Adobe_Firefly-475569?style=flat-square&labelColor=0D1117" alt="firefly" /> |
+| **Developer Tools** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,npm,vscode,postman&theme=dark" height="32" alt="tools" /> |
+| **CRM & Platform** | <img src="https://img.shields.io/badge/Salesforce-475569?style=flat-square&labelColor=0D1117" alt="sf" /> <img src="https://img.shields.io/badge/Apex-475569?style=flat-square&labelColor=0D1117" alt="apex" /> <img src="https://img.shields.io/badge/Lightning_Web_Components-475569?style=flat-square&labelColor=0D1117" alt="lwc" /> <img src="https://img.shields.io/badge/Flow-475569?style=flat-square&labelColor=0D1117" alt="flow" /> <img src="https://img.shields.io/badge/SOQL-475569?style=flat-square&labelColor=0D1117" alt="soql" /> <img src="https://img.shields.io/badge/Make.com-475569?style=flat-square&labelColor=0D1117" alt="make" /> <img src="https://img.shields.io/badge/Brevo-475569?style=flat-square&labelColor=0D1117" alt="brevo" /> <img src="https://img.shields.io/badge/HeyFlow-475569?style=flat-square&labelColor=0D1117" alt="heyflow" /> <img src="https://img.shields.io/badge/Matelso-475569?style=flat-square&labelColor=0D1117" alt="matelso" /> |
+| **AI** | <img src="https://img.shields.io/badge/Claude_API-475569?style=flat-square&labelColor=0D1117" alt="claude" /> <img src="https://img.shields.io/badge/Model_Context_Protocol-475569?style=flat-square&labelColor=0D1117" alt="mcp" /> <img src="https://img.shields.io/badge/ChatGPT-475569?style=flat-square&labelColor=0D1117" alt="chatgpt" /> <img src="https://img.shields.io/badge/Perplexity-475569?style=flat-square&labelColor=0D1117" alt="perplexity" /> <img src="https://img.shields.io/badge/Midjourney-475569?style=flat-square&labelColor=0D1117" alt="midjourney" /> |
+| **Advertising** | <img src="https://img.shields.io/badge/Google_Ads-475569?style=flat-square&labelColor=0D1117" alt="googleads" /> <img src="https://img.shields.io/badge/Microsoft_Ads-475569?style=flat-square&labelColor=0D1117" alt="msads" /> <img src="https://img.shields.io/badge/Meta_Ads-475569?style=flat-square&labelColor=0D1117" alt="metaads" /> <img src="https://img.shields.io/badge/YouTube_Ads-475569?style=flat-square&labelColor=0D1117" alt="ytads" /> <img src="https://img.shields.io/badge/Outbrain-475569?style=flat-square&labelColor=0D1117" alt="outbrain" /> <img src="https://img.shields.io/badge/Taboola-475569?style=flat-square&labelColor=0D1117" alt="taboola" /> <img src="https://img.shields.io/badge/Merchant_Center-475569?style=flat-square&labelColor=0D1117" alt="merchant" /> |
+| **Analytics & Tracking** | <img src="https://img.shields.io/badge/Google_Analytics_4-475569?style=flat-square&labelColor=0D1117" alt="ga4" /> <img src="https://img.shields.io/badge/Google_Tag_Manager-475569?style=flat-square&labelColor=0D1117" alt="gtm" /> <img src="https://img.shields.io/badge/Search_Console-475569?style=flat-square&labelColor=0D1117" alt="gsc" /> <img src="https://img.shields.io/badge/Looker_Studio-475569?style=flat-square&labelColor=0D1117" alt="looker" /> <img src="https://img.shields.io/badge/Hotjar-475569?style=flat-square&labelColor=0D1117" alt="hotjar" /> <img src="https://img.shields.io/badge/Microsoft_Clarity-475569?style=flat-square&labelColor=0D1117" alt="clarity" /> <img src="https://img.shields.io/badge/Google_Trends-475569?style=flat-square&labelColor=0D1117" alt="trends" /> |
+| **SEO** | <img src="https://img.shields.io/badge/Sistrix-475569?style=flat-square&labelColor=0D1117" alt="sistrix" /> <img src="https://img.shields.io/badge/Screaming_Frog-475569?style=flat-square&labelColor=0D1117" alt="frog" /> |
+| **Consent & Commerce** | <img src="https://img.shields.io/badge/Borlabs_Consent-475569?style=flat-square&labelColor=0D1117" alt="borlabs" /> <img src="https://img.shields.io/badge/Usercentrics_%2F_Cookiebot-475569?style=flat-square&labelColor=0D1117" alt="consent" /> <img src="https://img.shields.io/badge/Trusted_Shops-475569?style=flat-square&labelColor=0D1117" alt="tshops" /> <img src="https://img.shields.io/badge/Shopify-475569?style=flat-square&labelColor=0D1117" alt="shopify" /> |
+| **Workflow** | <img src="https://img.shields.io/badge/ClickUp-475569?style=flat-square&labelColor=0D1117" alt="clickup" /> <img src="https://img.shields.io/badge/Asana-475569?style=flat-square&labelColor=0D1117" alt="asana" /> <img src="https://img.shields.io/badge/Google_Workspace-475569?style=flat-square&labelColor=0D1117" alt="workspace" /> <img src="https://img.shields.io/badge/Apps_Script-475569?style=flat-square&labelColor=0D1117" alt="appsscript" /> |
 
 ---
 
@@ -271,9 +194,6 @@ exploring:
 
 <div align="center">
 
-<a href="mailto:malte.guendisch@ergoflix.de">
-  <img src="https://img.shields.io/badge/Email-475569?style=for-the-badge&logo=maildotru&logoColor=94A3B8&labelColor=0D1117" alt="mail" />
-</a>
 <a href="https://www.linkedin.com/in/malte-g%C3%BCndisch-4131131ba/">
   <img src="https://img.shields.io/badge/LinkedIn-475569?style=for-the-badge&logo=linkedin&logoColor=94A3B8&labelColor=0D1117" alt="linkedin" />
 </a>
