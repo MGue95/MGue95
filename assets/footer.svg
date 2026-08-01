@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="bgf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="55%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="wavef" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#94A3B8" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.20"/>
+    </linearGradient>
+  </defs>
+
+  <rect y="26" width="1200" height="84" fill="url(#bgf)"/>
+  <path d="M0 34 C 220 12, 400 54, 640 36 S 980 8, 1200 30 L1200 0 L0 0 Z" fill="#0D1117"/>
+  <path d="M0 48 C 180 26, 320 72, 520 54 S 900 22, 1200 46 L1200 26 L0 26 Z" fill="url(#wavef)"/>
+</svg>
