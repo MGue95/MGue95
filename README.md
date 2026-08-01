@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:334155,100:64748B&height=200&section=header&text=Malte%20G%C3%BCndisch&fontSize=52&fontColor=E2E8F0&fontAlignY=34&desc=Manager%20Online%20Marketing%20%26%20CRM&descAlignY=54&descSize=17&v=2" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:334155,100:64748B&height=150&section=header&text=Malte%20G%C3%BCndisch&fontSize=28&fontColor=E2E8F0&fontAlign=17&fontAlignY=32&desc=Manager%20Online%20Marketing%20%26amp%3B%20CRM&descAlign=17&descAlignY=47&descSize=14" width="100%" alt="header" />
 
 <a href="https://github.com/MGue95">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3400&pause=1000&color=94A3B8&center=true&vCenter=true&width=760&lines=Manager+Online+Marketing+%26+CRM;Salesforce+%7C+Apex+%C2%B7+LWC+%C2%B7+Flow+%C2%B7+SOQL;Web+Engineering+%7C+WordPress+%C2%B7+Oxygen+%C2%B7+PHP;Marketing+Automation+%7C+Analytics+%C2%B7+Tracking+%C2%B7+AI" alt="typing" />
