@@ -17,8 +17,8 @@
 <a href="https://www.linkedin.com/in/malte-g%C3%BCndisch-4131131ba/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-475569?style=for-the-badge&labelColor=0D1117" alt="linkedin" />
 </a>
-<a href="https://github.com/MGue95">
-  <img src="https://img.shields.io/badge/GitHub-Follow-475569?style=for-the-badge&logo=github&logoColor=696464&labelColor=0D1117" alt="github" />
+<a href="https://github.com/MGue95?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-Browse-475569?style=for-the-badge&logo=github&logoColor=696464&labelColor=0D1117" alt="repositories" />
 </a>
 
 <br/><br/>
@@ -183,8 +183,8 @@ exploring:
 <a href="https://www.linkedin.com/in/malte-g%C3%BCndisch-4131131ba/">
   <img src="https://img.shields.io/badge/LinkedIn-475569?style=for-the-badge&labelColor=0D1117" alt="linkedin" />
 </a>
-<a href="https://github.com/MGue95">
-  <img src="https://img.shields.io/badge/GitHub-475569?style=for-the-badge&logo=github&logoColor=696464&labelColor=0D1117" alt="github" />
+<a href="https://github.com/MGue95/wptrustrocket">
+  <img src="https://img.shields.io/badge/WPTrustRocket-Open_Source-475569?style=for-the-badge&logo=github&logoColor=696464&labelColor=0D1117" alt="wptrustrocket" />
 </a>
 
 </div>
