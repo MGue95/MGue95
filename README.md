@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/MGue95/MGue95/main/assets/header.svg" width="100%" alt="Malte Gündisch — Manager Online Marketing & CRM" />
 
 <a href="https://github.com/MGue95">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3400&pause=1000&color=94A3B8&center=true&vCenter=true&width=760&lines=Manager+Online+Marketing+%26+CRM;Salesforce+%7C+Apex+%C2%B7+LWC+%C2%B7+Flow+%C2%B7+SOQL;Web+Engineering+%7C+WordPress+%C2%B7+Oxygen+%C2%B7+PHP;Marketing+Automation+%7C+Analytics+%C2%B7+Tracking+%C2%B7+AI" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3400&pause=1000&color=22C55E&center=true&vCenter=true&width=760&lines=Manager+Online+Marketing+%26+CRM;Salesforce+%7C+Apex+%C2%B7+LWC+%C2%B7+Flow+%C2%B7+SOQL;Web+Engineering+%7C+WordPress+%C2%B7+Oxygen+%C2%B7+PHP;Marketing+Automation+%7C+Analytics+%C2%B7+Tracking+%C2%B7+AI" alt="typing" />
 </a>
 
 <br/>
