@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="Malte Gündisch — Manager Online Marketing &amp; CRM">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="55%" stop-color="#334155"/>
-      <stop offset="100%" stop-color="#64748B"/>
+      <stop offset="0%" stop-color="#051F14"/>
+      <stop offset="55%" stop-color="#0F2E21"/>
+      <stop offset="100%" stop-color="#1E3A2B"/>
     </linearGradient>
     <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#94A3B8" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.20"/>
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#4ADE80" stop-opacity="0.20"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="160" fill="url(#bg)"/>
   <path d="M0 128 C 180 104, 320 152, 520 134 S 900 100, 1200 126 L1200 160 L0 160 Z" fill="url(#wave)"/>
-  <path d="M0 142 C 220 122, 400 164, 640 146 S 980 118, 1200 140 L1200 160 L0 160 Z" fill="#0D1117" fill-opacity="0.35"/>
+  <path d="M0 142 C 220 122, 400 164, 640 146 S 980 118, 1200 140 L1200 160 L0 160 Z" fill="#030C08" fill-opacity="0.35"/>
 
-  <text x="56" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#E2E8F0">Malte Gündisch</text>
-  <text x="56" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="0.4" fill="#94A3B8">Manager Online Marketing &amp; CRM</text>
+  <text x="56" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#F0FDF4">Malte Gündisch</text>
+  <text x="56" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="0.4" fill="#22C55E">Manager Online Marketing &amp; CRM</text>
 </svg>
