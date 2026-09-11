@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Render the profile's GitHub analytics cards as static SVGs.
 
-Runs in GitHub Actions, writes assets/stats.svg, assets/languages.svg and
-assets/activity.svg. No third-party service is involved: the data comes from
-the GitHub GraphQL API, the SVG is written here, the result is committed.
+Runs in GitHub Actions and owns every SVG in assets/: header, footer and the
+three analytics cards. No third-party service is involved — the data comes
+from the GitHub GraphQL API, the SVG is written here, the result is committed.
+The header's bar chart is real: one bar per week of the last 12 months.
 
 The token decides what is visible. A personal access token with `repo` and
 `read:org` includes contributions to private repositories (GitHub reports
@@ -29,7 +30,14 @@ EXCLUDED = {
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")
 
-# Palette — matches assets/header.svg
+NAME = os.environ.get("PROFILE_NAME", "Malte Gündisch")
+ROLE = os.environ.get("PROFILE_ROLE", "Manager Online Marketing & CRM")
+CONTEXT = os.environ.get(
+    "PROFILE_CONTEXT", "ergoflix Group · Salesforce · Web · Automation · AI"
+)
+MONO = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+
+# Palette
 BG = "#0D1117"
 ACCENT = "#22C55E"
 ACCENT_SOFT = "#4ADE80"
@@ -202,7 +210,16 @@ def fetch():
         "languages": langs,
         "days": days,
         "streak": longest_streak(days),
+        "weeks": weekly(days),
     }
+
+
+def weekly(days):
+    """Sum the calendar into one value per week; GitHub's weeks start on Sunday."""
+    return [
+        sum(count for _date, count in days[index : index + 7])
+        for index in range(0, len(days), 7)
+    ]
 
 
 def longest_streak(days):
@@ -385,11 +402,106 @@ def render_activity(data):
     return "".join(svg)
 
 
+def render_header(data):
+    w, h = 1200, 180
+    weeks = data["weeks"]
+    svg = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" '
+        'role="img" aria-label="%s — %s">\n' % (w, h, w, h, esc(NAME), esc(ROLE)),
+        "  <defs>\n"
+        '    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">'
+        '<stop offset="0%%" stop-color="#04170F"/>'
+        '<stop offset="58%%" stop-color="#0F2E21"/>'
+        '<stop offset="100%%" stop-color="#1E3A2B"/></linearGradient>\n'
+        '    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0%%" stop-color="%s"/>'
+        '<stop offset="60%%" stop-color="%s" stop-opacity="0.5"/>'
+        '<stop offset="100%%" stop-color="%s" stop-opacity="0"/></linearGradient>\n'
+        '    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">'
+        '<stop offset="0%%" stop-color="%s" stop-opacity="0.85"/>'
+        '<stop offset="100%%" stop-color="%s" stop-opacity="0.18"/></linearGradient>\n'
+        "  </defs>\n" % (ACCENT, ACCENT_SOFT, ACCENT_SOFT, ACCENT_SOFT, ACCENT),
+        '  <rect width="%d" height="%d" fill="url(#bg)"/>\n' % (w, h),
+        '  <rect width="%d" height="2.5" fill="url(#rule)"/>\n' % w,
+    ]
+
+    # One bar per week. The full 12 months would be mostly empty for a young
+    # account, so the header shows the recent half year.
+    weeks = weeks[-26:]
+    chart_x, chart_w, baseline, max_bar = 696, 448, 142, 102
+    peak = max(weeks + [1])
+    slot = chart_w / float(max(len(weeks), 1))
+    bar_w = max(min(slot - 3.0, 7.0), 3.0)
+    svg.append('  <g fill="url(#bar)">\n')
+    for index, value in enumerate(weeks):
+        height = max(max_bar * (value / float(peak)), 3.0)
+        svg.append(
+            '    <rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="2"/>\n'
+            % (chart_x + index * slot, baseline - height, bar_w, height)
+        )
+    svg.append("  </g>\n")
+    svg.append(
+        '  <line x1="%d" y1="%d" x2="%.1f" y2="%d" stroke="%s" stroke-opacity="0.30" '
+        'stroke-width="1"/>\n'
+        % (chart_x, baseline + 4, chart_x + chart_w, baseline + 4, ACCENT)
+    )
+    svg.append(
+        '  <text x="%.1f" y="%d" text-anchor="end" font-family="%s" font-size="10.5" '
+        'fill="#6F8B7B">%s contributions · last %d weeks</text>\n'
+        % (chart_x + chart_w, baseline + 22, MONO, group(sum(weeks)), len(weeks))
+    )
+
+    svg.append(
+        '  <text x="56" y="76" font-family="%s" font-size="34" font-weight="600" '
+        'fill="#F0FDF4">%s</text>\n' % (FONT, esc(NAME))
+    )
+    svg.append(
+        '  <text x="56" y="108" font-family="%s" font-size="14.5" fill="%s">'
+        "&#9656; %s</text>\n" % (MONO, ACCENT_SOFT, esc(ROLE))
+    )
+    svg.append(
+        '  <text x="56" y="134" font-family="%s" font-size="12" fill="#7E9A8A">%s</text>\n'
+        % (MONO, esc(CONTEXT))
+    )
+    svg.append("</svg>\n")
+    return "".join(svg)
+
+
+def render_footer(data):
+    w, h = 1200, 96
+    today = dt.datetime.now(dt.timezone.utc).strftime("%d %b %Y")
+    svg = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d" '
+        'role="img" aria-label="Footer">\n' % (w, h, w, h),
+        "  <defs>\n"
+        '    <linearGradient id="bgf" x1="0" y1="1" x2="1" y2="0">'
+        '<stop offset="0%%" stop-color="#04170F"/>'
+        '<stop offset="58%%" stop-color="#0F2E21"/>'
+        '<stop offset="100%%" stop-color="#1E3A2B"/></linearGradient>\n'
+        '    <linearGradient id="rulef" x1="1" y1="0" x2="0" y2="0">'
+        '<stop offset="0%%" stop-color="%s"/>'
+        '<stop offset="60%%" stop-color="%s" stop-opacity="0.5"/>'
+        '<stop offset="100%%" stop-color="%s" stop-opacity="0"/></linearGradient>\n'
+        "  </defs>\n" % (ACCENT, ACCENT_SOFT, ACCENT_SOFT),
+        '  <rect y="22" width="%d" height="%d" fill="url(#bgf)"/>\n' % (w, h - 22),
+        '  <rect y="22" width="%d" height="2.5" fill="url(#rulef)"/>\n' % w,
+        '  <text x="56" y="66" font-family="%s" font-size="12.5" fill="%s">'
+        "&#9656; github.com/%s</text>\n" % (MONO, ACCENT_SOFT, esc(LOGIN)),
+        '  <text x="1144" y="66" text-anchor="end" font-family="%s" font-size="11" '
+        'fill="#6F8B7B">cards regenerate daily · last update %s</text>\n'
+        % (MONO, esc(today)),
+        "</svg>\n",
+    ]
+    return "".join(svg)
+
+
 def main():
     if not TOKEN:
         sys.exit("No token: set GH_TOKEN or GITHUB_TOKEN.")
     data = fetch()
     cards = {
+        "header.svg": render_header(data),
+        "footer.svg": render_footer(data),
         "stats.svg": render_stats(data),
         "languages.svg": render_languages(data),
         "activity.svg": render_activity(data),
