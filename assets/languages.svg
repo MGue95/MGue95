@@ -4,11 +4,11 @@
   <text x="25" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">by bytes across the repositories I work in</text>
   <clipPath id="barclip"><rect x="25" y="66" width="445" height="9" rx="4"/></clipPath>
   <g clip-path="url(#barclip)">
-    <rect x="25.00" y="66" width="294.14" height="9" fill="#e34c26"/>
-    <rect x="318.54" y="66" width="65.95" height="9" fill="#1797c0"/>
-    <rect x="383.89" y="66" width="43.14" height="9" fill="#f1e05a"/>
-    <rect x="426.43" y="66" width="20.89" height="9" fill="#3572A5"/>
-    <rect x="446.72" y="66" width="19.71" height="9" fill="#663399"/>
+    <rect x="25.00" y="66" width="294.10" height="9" fill="#e34c26"/>
+    <rect x="318.50" y="66" width="65.95" height="9" fill="#1797c0"/>
+    <rect x="383.85" y="66" width="43.13" height="9" fill="#f1e05a"/>
+    <rect x="426.38" y="66" width="20.95" height="9" fill="#3572A5"/>
+    <rect x="446.73" y="66" width="19.70" height="9" fill="#663399"/>
     <rect x="465.83" y="66" width="4.77" height="9" fill="#4F5D95"/>
   </g>
   <circle cx="30" cy="102" r="5" fill="#e34c26"/>
