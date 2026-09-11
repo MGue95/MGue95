@@ -1,20 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="Malte Gündisch — Manager Online Marketing &amp; CRM">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Malte Gündisch — Manager Online Marketing &amp; CRM">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#051F14"/>
-      <stop offset="55%" stop-color="#0F2E21"/>
-      <stop offset="100%" stop-color="#1E3A2B"/>
-    </linearGradient>
-    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#4ADE80" stop-opacity="0.20"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#04170F"/><stop offset="58%" stop-color="#0F2E21"/><stop offset="100%" stop-color="#1E3A2B"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22C55E"/><stop offset="60%" stop-color="#4ADE80" stop-opacity="0.5"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4ADE80" stop-opacity="0.85"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0.18"/></linearGradient>
   </defs>
-
-  <rect width="1200" height="160" fill="url(#bg)"/>
-  <path d="M0 128 C 180 104, 320 152, 520 134 S 900 100, 1200 126 L1200 160 L0 160 Z" fill="url(#wave)"/>
-  <path d="M0 142 C 220 122, 400 164, 640 146 S 980 118, 1200 140 L1200 160 L0 160 Z" fill="#030C08" fill-opacity="0.35"/>
-
-  <text x="56" y="74" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#F0FDF4">Malte Gündisch</text>
-  <text x="56" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="0.4" fill="#22C55E">Manager Online Marketing &amp; CRM</text>
+  <rect width="1200" height="180" fill="url(#bg)"/>
+  <rect width="1200" height="2.5" fill="url(#rule)"/>
+  <g fill="url(#bar)">
+    <rect x="696.0" y="139.0" width="7.0" height="3.0" rx="2"/>
+    <rect x="713.2" y="138.6" width="7.0" height="3.4" rx="2"/>
+    <rect x="730.5" y="139.0" width="7.0" height="3.0" rx="2"/>
+    <rect x="747.7" y="139.0" width="7.0" height="3.0" rx="2"/>
+    <rect x="764.9" y="139.0" width="7.0" height="3.0" rx="2"/>
+    <rect x="782.2" y="139.0" width="7.0" height="3.0" rx="2"/>
+    <rect x="799.4" y="134.2" width="7.0" height="7.8" rx="2"/>
+    <rect x="816.6" y="117.3" width="7.0" height="24.7" rx="2"/>
+    <rect x="833.8" y="114.0" width="7.0" height="28.0" rx="2"/>
+    <rect x="851.1" y="133.0" width="7.0" height="9.0" rx="2"/>
+    <rect x="868.3" y="111.7" width="7.0" height="30.3" rx="2"/>
+    <rect x="885.5" y="98.3" width="7.0" height="43.7" rx="2"/>
+    <rect x="902.8" y="130.8" width="7.0" height="11.2" rx="2"/>
+    <rect x="920.0" y="117.3" width="7.0" height="24.7" rx="2"/>
+    <rect x="937.2" y="120.7" width="7.0" height="21.3" rx="2"/>
+    <rect x="954.5" y="105.0" width="7.0" height="37.0" rx="2"/>
+    <rect x="971.7" y="82.6" width="7.0" height="59.4" rx="2"/>
+    <rect x="988.9" y="86.0" width="7.0" height="56.0" rx="2"/>
+    <rect x="1006.2" y="88.2" width="7.0" height="53.8" rx="2"/>
+    <rect x="1023.4" y="64.7" width="7.0" height="77.3" rx="2"/>
+    <rect x="1040.6" y="79.2" width="7.0" height="62.8" rx="2"/>
+    <rect x="1057.8" y="65.8" width="7.0" height="76.2" rx="2"/>
+    <rect x="1075.1" y="137.5" width="7.0" height="4.5" rx="2"/>
+    <rect x="1092.3" y="75.9" width="7.0" height="66.1" rx="2"/>
+    <rect x="1109.5" y="40.0" width="7.0" height="102.0" rx="2"/>
+    <rect x="1126.8" y="138.6" width="7.0" height="3.4" rx="2"/>
+  </g>
+  <line x1="696" y1="146" x2="1144.0" y2="146" stroke="#22C55E" stroke-opacity="0.30" stroke-width="1"/>
+  <text x="1144.0" y="164" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#6F8B7B">718 contributions · last 26 weeks</text>
+  <text x="56" y="76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#F0FDF4">Malte Gündisch</text>
+  <text x="56" y="108" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" fill="#4ADE80">&#9656; Manager Online Marketing &amp; CRM</text>
+  <text x="56" y="134" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7E9A8A">ergoflix Group · Salesforce · Web · Automation · AI</text>
 </svg>
