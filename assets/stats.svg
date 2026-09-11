@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub statistics for MGue95">
+  <rect width="495" height="195" rx="8" fill="#0D1117"/>
+  <text x="25" y="34" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#22C55E">GitHub Stats</text>
+  <text x="25" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">public and private activity combined</text>
+  <rect x="25" y="64" width="445" height="1" fill="#1E3A2B"/>
+  <text x="25" y="90" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#C9D1D9">Contributions, last 12 months</text>
+  <text x="470" y="90" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4ADE80">716</text>
+  <text x="25" y="113" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#C9D1D9">Pull requests opened</text>
+  <text x="470" y="113" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4ADE80">346</text>
+  <text x="25" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#C9D1D9">Pull requests merged</text>
+  <text x="470" y="136" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4ADE80">337</text>
+  <text x="25" y="159" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#C9D1D9">Repositories contributed to</text>
+  <text x="470" y="159" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4ADE80">6</text>
+  <text x="25" y="182" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" fill="#C9D1D9">Longest daily streak</text>
+  <text x="470" y="182" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#4ADE80">27</text>
+</svg>

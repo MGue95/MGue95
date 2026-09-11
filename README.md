@@ -116,12 +116,12 @@ Responsible for the technical layer between marketing, sales and the systems beh
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=MGue95&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=94A3B8&icon_color=64748B&text_color=C9D1D9&ring_color=94A3B8" alt="stats" />
+<img height="165" src="https://raw.githubusercontent.com/MGue95/MGue95/main/assets/stats.svg" alt="stats" />
 <img height="165" src="https://streak-stats.demolab.com/?user=MGue95&hide_border=true&background=0D1117&stroke=475569&ring=94A3B8&fire=94A3B8&currStreakLabel=94A3B8&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="streak" />
 
 <br/><br/>
 
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MGue95&layout=compact&langs_count=8&hide_border=true&count_private=true&bg_color=0D1117&title_color=94A3B8&text_color=C9D1D9" alt="top languages" />
+<img height="180" src="https://raw.githubusercontent.com/MGue95/MGue95/main/assets/languages.svg" alt="top languages" />
 
 </div>
 
@@ -141,7 +141,7 @@ Responsible for the technical layer between marketing, sales and the systems beh
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MGue95&bg_color=0D1117&color=94A3B8&line=64748B&point=E2E8F0&area=true&area_color=334155&hide_border=true" width="100%" alt="activity graph" />
+<img src="https://raw.githubusercontent.com/MGue95/MGue95/main/assets/activity.svg" width="100%" alt="activity graph" />
 
 </div>
 
@@ -182,9 +182,6 @@ exploring:
 
 <a href="https://www.linkedin.com/in/malte-g%C3%BCndisch-4131131ba/">
   <img src="https://img.shields.io/badge/LinkedIn-475569?style=for-the-badge&labelColor=0D1117" alt="linkedin" />
-</a>
-<a href="https://github.com/MGue95/wptrustrocket">
-  <img src="https://img.shields.io/badge/WPTrustRocket-Open_Source-475569?style=for-the-badge&logo=github&logoColor=696464&labelColor=0D1117" alt="wptrustrocket" />
 </a>
 
 </div>
