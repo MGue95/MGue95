@@ -4,29 +4,29 @@
   <text x="25" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">by bytes across the repositories I work in</text>
   <clipPath id="barclip"><rect x="25" y="66" width="445" height="9" rx="4"/></clipPath>
   <g clip-path="url(#barclip)">
-    <rect x="25.00" y="66" width="286.47" height="9" fill="#e34c26"/>
-    <rect x="310.87" y="66" width="66.95" height="9" fill="#1797c0"/>
-    <rect x="377.22" y="66" width="42.00" height="9" fill="#f1e05a"/>
-    <rect x="418.61" y="66" width="24.41" height="9" fill="#663399"/>
-    <rect x="442.42" y="66" width="22.23" height="9" fill="#3572A5"/>
-    <rect x="464.05" y="66" width="5.04" height="9" fill="#4F5D95"/>
-    <rect x="468.48" y="66" width="2.12" height="9" fill="#3178c6"/>
+    <rect x="25.00" y="66" width="282.72" height="9" fill="#e34c26"/>
+    <rect x="307.12" y="66" width="66.92" height="9" fill="#1797c0"/>
+    <rect x="373.44" y="66" width="41.61" height="9" fill="#f1e05a"/>
+    <rect x="414.45" y="66" width="27.65" height="9" fill="#663399"/>
+    <rect x="441.49" y="66" width="23.23" height="9" fill="#3572A5"/>
+    <rect x="464.13" y="66" width="4.98" height="9" fill="#4F5D95"/>
+    <rect x="468.50" y="66" width="2.10" height="9" fill="#3178c6"/>
   </g>
   <circle cx="30" cy="102" r="5" fill="#e34c26"/>
   <text x="43" y="106" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">HTML</text>
-  <text x="225" y="106" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">64.2&#8201;%</text>
+  <text x="225" y="106" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">63.4&#8201;%</text>
   <circle cx="265" cy="102" r="5" fill="#1797c0"/>
   <text x="278" y="106" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">Apex</text>
   <text x="460" y="106" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">14.9&#8201;%</text>
   <circle cx="30" cy="125" r="5" fill="#f1e05a"/>
   <text x="43" y="129" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">JavaScript</text>
-  <text x="225" y="129" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">9.3&#8201;%</text>
+  <text x="225" y="129" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">9.2&#8201;%</text>
   <circle cx="265" cy="125" r="5" fill="#663399"/>
   <text x="278" y="129" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">CSS</text>
-  <text x="460" y="129" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">5.3&#8201;%</text>
+  <text x="460" y="129" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">6.1&#8201;%</text>
   <circle cx="30" cy="148" r="5" fill="#3572A5"/>
   <text x="43" y="152" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">Python</text>
-  <text x="225" y="152" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">4.9&#8201;%</text>
+  <text x="225" y="152" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">5.1&#8201;%</text>
   <circle cx="265" cy="148" r="5" fill="#4F5D95"/>
   <text x="278" y="152" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" fill="#C9D1D9">PHP</text>
   <text x="460" y="152" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8B949E">1.0&#8201;%</text>
