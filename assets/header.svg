@@ -11,31 +11,31 @@
     <rect x="713.2" y="139.0" width="7.0" height="3.0" rx="2"/>
     <rect x="730.5" y="139.0" width="7.0" height="3.0" rx="2"/>
     <rect x="747.7" y="139.0" width="7.0" height="3.0" rx="2"/>
-    <rect x="764.9" y="137.7" width="7.0" height="4.3" rx="2"/>
-    <rect x="782.2" y="115.2" width="7.0" height="26.8" rx="2"/>
-    <rect x="799.4" y="115.2" width="7.0" height="26.8" rx="2"/>
-    <rect x="816.6" y="133.4" width="7.0" height="8.6" rx="2"/>
-    <rect x="833.8" y="117.3" width="7.0" height="24.7" rx="2"/>
-    <rect x="851.1" y="103.3" width="7.0" height="38.7" rx="2"/>
-    <rect x="868.3" y="123.7" width="7.0" height="18.3" rx="2"/>
-    <rect x="885.5" y="122.7" width="7.0" height="19.3" rx="2"/>
-    <rect x="902.8" y="133.4" width="7.0" height="8.6" rx="2"/>
-    <rect x="920.0" y="95.8" width="7.0" height="46.2" rx="2"/>
-    <rect x="937.2" y="95.8" width="7.0" height="46.2" rx="2"/>
-    <rect x="954.5" y="73.3" width="7.0" height="68.7" rx="2"/>
-    <rect x="971.7" y="96.9" width="7.0" height="45.1" rx="2"/>
-    <rect x="988.9" y="66.8" width="7.0" height="75.2" rx="2"/>
-    <rect x="1006.2" y="77.6" width="7.0" height="64.4" rx="2"/>
-    <rect x="1023.4" y="90.5" width="7.0" height="51.5" rx="2"/>
-    <rect x="1040.6" y="118.4" width="7.0" height="23.6" rx="2"/>
-    <rect x="1057.8" y="86.2" width="7.0" height="55.8" rx="2"/>
-    <rect x="1075.1" y="56.1" width="7.0" height="85.9" rx="2"/>
-    <rect x="1092.3" y="40.0" width="7.0" height="102.0" rx="2"/>
-    <rect x="1109.5" y="46.4" width="7.0" height="95.6" rx="2"/>
-    <rect x="1126.8" y="135.6" width="7.0" height="6.4" rx="2"/>
+    <rect x="764.9" y="135.3" width="7.0" height="6.7" rx="2"/>
+    <rect x="782.2" y="120.8" width="7.0" height="21.2" rx="2"/>
+    <rect x="799.4" y="117.9" width="7.0" height="24.1" rx="2"/>
+    <rect x="816.6" y="134.3" width="7.0" height="7.7" rx="2"/>
+    <rect x="833.8" y="116.0" width="7.0" height="26.0" rx="2"/>
+    <rect x="851.1" y="104.5" width="7.0" height="37.5" rx="2"/>
+    <rect x="868.3" y="132.4" width="7.0" height="9.6" rx="2"/>
+    <rect x="885.5" y="120.8" width="7.0" height="21.2" rx="2"/>
+    <rect x="902.8" y="123.7" width="7.0" height="18.3" rx="2"/>
+    <rect x="920.0" y="110.2" width="7.0" height="31.8" rx="2"/>
+    <rect x="937.2" y="91.0" width="7.0" height="51.0" rx="2"/>
+    <rect x="954.5" y="93.9" width="7.0" height="48.1" rx="2"/>
+    <rect x="971.7" y="95.8" width="7.0" height="46.2" rx="2"/>
+    <rect x="988.9" y="75.6" width="7.0" height="66.4" rx="2"/>
+    <rect x="1006.2" y="88.1" width="7.0" height="53.9" rx="2"/>
+    <rect x="1023.4" y="76.6" width="7.0" height="65.4" rx="2"/>
+    <rect x="1040.6" y="138.2" width="7.0" height="3.8" rx="2"/>
+    <rect x="1057.8" y="85.2" width="7.0" height="56.8" rx="2"/>
+    <rect x="1075.1" y="54.4" width="7.0" height="87.6" rx="2"/>
+    <rect x="1092.3" y="60.2" width="7.0" height="81.8" rx="2"/>
+    <rect x="1109.5" y="40.0" width="7.0" height="102.0" rx="2"/>
+    <rect x="1126.8" y="138.2" width="7.0" height="3.8" rx="2"/>
   </g>
   <line x1="696" y1="146" x2="1144.0" y2="146" stroke="#22C55E" stroke-opacity="0.30" stroke-width="1"/>
-  <text x="1144.0" y="164" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#6F8B7B">878 contributions · last 26 weeks</text>
+  <text x="1144.0" y="164" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#6F8B7B">905 contributions · last 26 weeks</text>
   <text x="56" y="76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#F0FDF4">Malte Gündisch</text>
   <text x="56" y="108" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" fill="#4ADE80">&#9656; Manager Online Marketing &amp; CRM</text>
   <text x="56" y="134" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#7E9A8A">ergoflix Group · Salesforce · Web · Automation · AI</text>
