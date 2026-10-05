@@ -4,12 +4,12 @@
   <text x="25" y="52" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">by bytes across the repositories I work in</text>
   <clipPath id="barclip"><rect x="25" y="66" width="445" height="9" rx="4"/></clipPath>
   <g clip-path="url(#barclip)">
-    <rect x="25.00" y="66" width="264.68" height="9" fill="#e34c26"/>
-    <rect x="289.08" y="66" width="72.03" height="9" fill="#1797c0"/>
-    <rect x="360.51" y="66" width="41.85" height="9" fill="#f1e05a"/>
-    <rect x="401.77" y="66" width="31.48" height="9" fill="#663399"/>
-    <rect x="432.64" y="66" width="27.75" height="9" fill="#3572A5"/>
-    <rect x="459.79" y="66" width="8.85" height="9" fill="#4F5D95"/>
+    <rect x="25.00" y="66" width="264.57" height="9" fill="#e34c26"/>
+    <rect x="288.97" y="66" width="71.93" height="9" fill="#1797c0"/>
+    <rect x="360.30" y="66" width="41.79" height="9" fill="#f1e05a"/>
+    <rect x="401.49" y="66" width="31.43" height="9" fill="#663399"/>
+    <rect x="432.32" y="66" width="27.82" height="9" fill="#3572A5"/>
+    <rect x="459.54" y="66" width="9.11" height="9" fill="#4F5D95"/>
     <rect x="468.05" y="66" width="2.55" height="9" fill="#3178c6"/>
   </g>
   <circle cx="30" cy="102" r="5" fill="#e34c26"/>
